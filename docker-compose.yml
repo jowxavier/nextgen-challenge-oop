@@ -1,0 +1,7 @@
+services:
+    app:
+        build:
+            context: ./config
+        container_name: oop-app
+        volumes:
+            - ./:/var/www/html
